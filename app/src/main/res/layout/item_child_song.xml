@@ -7,8 +7,8 @@
     android:layout_width="@dimen/medida_128"
     android:layout_height="@dimen/medida_128"
     tools:cardBackgroundColor="@color/teal_700"
-    app:cardCornerRadius="@dimen/radio_8dp"
-    android:layout_margin="@dimen/radio_8dp"
+    app:cardCornerRadius="@dimen/dimm_8dp"
+    android:layout_margin="@dimen/dimm_8dp"
     >
     <ImageView
         android:layout_width="match_parent"

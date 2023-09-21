@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="medida_128">128dp</dimen>
-    <dimen name="radio_20dp">20dp</dimen>
-    <dimen name="radio_8dp">8dp</dimen>
+    <dimen name="dimm_20dp">20dp</dimen>
+    <dimen name="dimm_8dp">8dp</dimen>
+    <dimen name="dimm_16dp">16dp</dimen>
 </resources>
