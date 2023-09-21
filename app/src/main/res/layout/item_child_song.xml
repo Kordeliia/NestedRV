@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/containerView"
+    android:layout_width="@dimen/medida_128"
+    android:layout_height="@dimen/medida_128"
+    tools:cardBackgroundColor="@color/teal_700"
+    app:cardCornerRadius="@dimen/radio_8dp"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_music"
+        android:alpha="0.3"
+        android:importantForAccessibility="no"
+        />
+    <TextView
+        android:id="@+id/tvChildName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Song name"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textColor="@color/white"
+        />
+</com.google.android.material.card.MaterialCardView>
