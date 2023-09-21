@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getData() {
-        TODO("Not yet implemented")
+        val data = FakeDB.getAllMusic()
+        parentAdapter.submitList(data)
     }
 }
